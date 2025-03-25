@@ -1,0 +1,449 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+
+}
+
+a:hover {
+    transform: scale(1.05);
+}
+
+body {
+    background-color: #fafcfd;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+
+
+header {
+    margin: 20px;
+}
+
+/*SINTAXIS CENTRADO*/
+.perfil,
+.info,
+.div-buttons,
+.div-iconos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+/*--------------------*/
+
+
+
+/*ICONOS ESPAÑOL, MODO OSCURO*/
+.botones {
+    display: flex;
+    margin: auto;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.botones .div-modo-oscuro button {
+    background-color: #fafcfd;
+    border: none;
+    cursor: pointer;
+    font-size: 25px;
+}
+
+.botones .div-modo-claro button {
+    background-color: #0c171d;
+    border: none;
+    cursor: pointer;
+    font-size: 25px;
+    color: white;
+}
+
+.botones .div-modo-claro button:hover,
+.div-modo-oscuro button:hover {
+    color: rgb(0, 85, 255);
+    transition: 0.3s;
+}
+
+
+.botones .div-modo-espanol button,
+.div-modo-ingles button {
+    background-color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.div-modo-espanol button:hover, .div-modo-ingles button:hover{
+    color: rgb(0, 85, 255);
+    transition: 0.3s;
+}
+
+
+
+
+
+
+/*--------------------*/
+
+
+
+
+/*CONTENEDORES PERFIL*/
+.perfil .contenedor {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 30px;
+}
+
+.perfil .contenedor img {
+    margin: auto;
+    border-radius: 50%;
+    border: 2px solid rgb(70, 70, 219);
+    padding: 10px;
+}
+
+.perfil .contenedor h1,
+h4 {
+    text-align: center;
+}
+
+.div-iconos {
+    margin-bottom: 30px;
+    color: #0056b3;
+
+}
+
+.div-iconos a {
+    font-size: 30px;
+    color: rgb(16, 58, 224);
+    margin: 5px;
+}
+
+.info p {
+    line-height: 1.5rem;
+    /* color: rgb(82, 81, 81); */
+    color: #657881;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+/*----------------------------*/
+
+
+
+
+
+/*BOTONES CV*/
+.div-buttons {
+    margin: 30px 30px 50px 0px;
+}
+
+.div-buttons .div1 .btn {
+    padding: 20px;
+    border: none;
+    border-radius: 15px;
+    background-color: rgb(70, 123, 223);
+    color: white;
+    font-weight: 500;
+    box-shadow: 0px 10px 20px rgb(0, 0, 0);
+    margin-right: 30px;
+    font-size: 16px;
+    width: 180px;
+    cursor: pointer;
+}
+
+.div-buttons .div1 .btn a {
+    color: white;
+}
+
+.div-buttons .div1 .btn:hover {
+    padding: 20px;
+    border: none;
+    border-radius: 15px;
+    background-color: rgb(64, 98, 161);
+    color: white;
+    font-weight: bold;
+    box-shadow: 0px 10px 20px rgb(0, 0, 0);
+    margin-right: 30px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.5s;
+
+}
+
+.div-buttons .div2 a {
+    background-color: #e9ebec;
+    padding: 15px;
+    color: black;
+    border-radius: 15px;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.div-buttons .div2 a:hover {
+    background-color: #d0d1d1;
+    padding: 15px;
+    color: black;
+    border-radius: 15px;
+    font-size: 25px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+/*-----------------------------*/
+
+
+
+
+
+/*BOTONES PROYECTO*/
+.div-menu {
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.div-menu ul {
+    background-color: #e9ebec;
+    padding: 15px;
+    width: 340px;
+    border-radius: 10px;
+    text-align: center;
+
+}
+
+.div-menu ul li {
+    display: inline-block;
+    list-style: none;
+}
+
+.div-menu ul li #btn1 {
+    background-color: rgb(255, 255, 255);
+    border: none;
+    padding: 10px;
+    font-size: 16px;
+    width: 150px;
+    font-weight: bolder;
+    cursor: pointer;
+    padding: 20px;
+    border-radius: 5px;
+    transition: 0.5s;
+
+}
+
+.div-menu ul li #btn2 {
+    background-color: #e9ebec;
+    /*-------------------------*/
+    border: none;
+    padding: 10px;
+    font-size: 16px;
+    width: 150px;
+    font-weight: bolder;
+    cursor: pointer;
+    padding: 20px;
+    border-radius: 5px;
+    transition: 0.5s;
+}
+
+
+/*-------------------------*/
+
+.contenedor-borrar {
+    display: flex;
+    justify-content: center;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    padding: 20px;
+}
+
+.card {
+    width: 350px;
+    height: 200px;
+    background: #222;
+    border-radius: 10px;
+    overflow: hidden;
+    position: relative;
+    cursor: pointer;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 10px 20px rgba(255, 255, 255, 0.2);
+}
+
+.overlay {
+    position: absolute;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.6);
+    color: white;
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+    font-size: 16px;
+}
+
+
+
+.container {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    gap: 50px;
+    margin-top: 50px;
+}
+
+.section {
+    border-radius: 10px;
+}
+
+h2 {
+    text-align: center;
+}
+
+.section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.section li {
+    margin: 10px 0;
+    display: flex;
+    align-items: center;
+}
+
+.section ul li i {
+    color: rgb(30, 120, 238);
+    font-weight: bolder;
+    margin: 5px;
+}
+
+
+footer {
+    text-align: center;
+    margin: 50px 0px 50px 0px;
+}
+
+
+.div-ver {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    background-color: #007bff;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    max-width: 150px;
+    text-align: center;
+    margin: auto;
+}
+
+.div-ver:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
+}
+
+
+.ver-proyectos {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    background-color: #007bff;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    max-width: 150px;
+    text-align: center;
+    margin: auto;
+    font-size: 16px;
+}
+
+.ver-proyectos:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
+    color: white;
+}
+
+.ver-proyectos a,
+.div-ver a {
+    color: white;
+}
+
+
+.div-ver i {
+    font-size: 16px;
+}
+
+/* Efecto general de fondo */
+
+  .contenido {
+    opacity: 0;
+    transform: translateY(5px); /* Comienza desplazado hacia abajo */
+    transition: transform 1s ease, opacity 1s ease;
+  }
+  
+  .contenido.activo {
+    opacity: 1;
+    transform: translateY(0); /* Se mueve hacia su posición original */
+  }
+  
+
+
+
+
+@media (width <500px) {
+    img {
+        width: 191px;
+        height: 189px;
+    }
+
+    .botones {
+        justify-content: space-between;
+    }
+
+    .grid-container {
+        grid-template-columns: repeat(1, 2fr);
+    }
+
+    .info p {
+        font-size: 18px;
+    }
+
+    .ver-proyectos {
+        margin-top: 50px;
+    }
+
+    .div-iconos a {
+        font-size: 25px;
+    }
+}
